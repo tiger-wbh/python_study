@@ -307,7 +307,7 @@ def main():
     admin.printAdminView()
     if admin.adminOption():
         return -1
-
+    # 第一次文件为空时使用
     # allUsers = {}
 
     # 提款机对象
